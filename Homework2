@@ -1,0 +1,36 @@
+Question1-coding
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.Write("Enter a letter grade (A, B, C, D, F): ");
+        string input = Console.ReadLine().ToUpper(); // Convert input to uppercase
+
+        if (input == "A")
+        {
+            Console.WriteLine("GPA Points: 4");
+        }
+        else if (input == "B")
+        {
+            Console.WriteLine("GPA Points: 3");
+        }
+        else if (input == "C")
+        {
+            Console.WriteLine("GPA Points: 2");
+        }
+        else if (input == "D")
+        {
+            Console.WriteLine("GPA Points: 1");
+        }
+        else if (input == "F")
+        {
+            Console.WriteLine("GPA Points: 0");
+        }
+        else
+        {
+            Console.WriteLine("Wrong Letter Grade!");
+        }
+    }
+}
