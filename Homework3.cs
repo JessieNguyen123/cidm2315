@@ -37,3 +37,26 @@ class Program
     }
 }
 Question2-Code
+Console.WriteLine("Assign an int value to N:");
+        int N = Convert.ToInt16(Console.ReadLine());
+
+        for (int row = 0; row < N; row++)
+        {
+            for (int col = 0; col < N; col++)
+     {
+            Console.Write("#");
+     }
+            Console.WriteLine();
+        }
+            Console.WriteLine(); 
+Question3-Code
+Console.WriteLine("Assign an int value to N: ");
+        int N = Convert.ToInt16(Console.ReadLine());
+        for (int row=1; row <= N; row++)
+        {
+            for (int col = 1; col <= row; col++)
+            {
+                Console.Write("*");
+            }
+            Console.WriteLine();
+        }
